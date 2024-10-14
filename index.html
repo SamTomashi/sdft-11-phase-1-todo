@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Marines Todo</title>
+  </head>
+  <body class="bg-warning">
+    <div class="container">
+      <form class="row g-3 p-4" id="frm-task">
+        <div class="col-auto">
+          <input
+            type="text"
+            class="form-control form-control-sm"
+            id="todo-task"
+            placeholder="Sleeping"
+            name="task-name"
+          />
+        </div>
+        <div class="col-auto">
+          <button id="btn-add-task" type="submit" class="btn btn-primary mb-3 btn-sm">
+            Add
+          </button>
+        </div>
+      </form>
+      <div>
+        <ul id="todo-list" class="list-group list-group-flush">
+        </ul>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/js/index.js"></script>
+  </body>
+</html>
